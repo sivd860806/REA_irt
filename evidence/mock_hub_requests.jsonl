@@ -1,0 +1,11 @@
+{"method": "POST", "path": "/v1/auth", "x-api-key": "test00000000000000000000000000000000000000", "authorization": null, "content-type": "", "bytes": 0}
+{"method": "POST", "path": "/v1/auth", "x-api-key": "wrong", "authorization": null, "content-type": "", "bytes": 0}
+{"method": "GET", "path": "/v1/models/MODEL123", "x-api-key": "test00000000000000000000000000000000000000", "authorization": null, "content-type": "", "bytes": 0}
+{"method": "POST", "path": "/v1/models/MODEL123", "x-api-key": "test00000000000000000000000000000000000000", "authorization": null, "content-type": "application/json", "bytes": 68, "json": {"metrics": {"0": "{\"metrics/mAP50(B)\": 0.1}"}, "type": "metrics"}}
+{"method": "POST", "path": "/v1/models/MODEL123/upload", "x-api-key": "test00000000000000000000000000000000000000", "authorization": null, "content-type": "multipart/form-data", "bytes": 2462, "multipart_fields": ["epoch", "isBest", "last.pt", "type"]}
+{"method": "POST", "path": "/v1/models/MODEL123/upload", "x-api-key": "test00000000000000000000000000000000000000", "authorization": null, "content-type": "multipart/form-data", "bytes": 2459, "multipart_fields": ["best.pt", "epoch", "map", "type"]}
+{"method": "POST", "path": "/v1/agent/heartbeat/models/MODEL123", "x-api-key": "test00000000000000000000000000000000000000", "authorization": null, "content-type": "application/json", "bytes": 50, "json": {"agent": "python-3.13.18-local", "agentId": null}}
+{"method": "POST", "path": "/v1/agent/heartbeat/models/MODEL123", "x-api-key": "test00000000000000000000000000000000000000", "authorization": null, "content-type": "application/json", "bytes": 55, "json": {"agent": "python-3.13.18-local", "agentId": "AGENT-1"}}
+{"method": "POST", "path": "/v1/agent/heartbeat/models/MODEL123", "x-api-key": "test00000000000000000000000000000000000000", "authorization": null, "content-type": "application/json", "bytes": 55, "json": {"agent": "python-3.13.18-local", "agentId": "AGENT-1"}}
+{"method": "GET", "path": "/v1/users/u1", "x-api-key": "test00000000000000000000000000000000000000", "authorization": null, "content-type": "", "bytes": 0}
+{"method": "GET", "path": "/v1/datasets?limit=10&public=x-api-key", "x-api-key": null, "authorization": null, "content-type": "", "bytes": 0}

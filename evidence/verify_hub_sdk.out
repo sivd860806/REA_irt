@@ -1,0 +1,10 @@
+2026-11-06 02:57:07,062 - hub_sdk.helpers.logger - WARNING - Ultralytics HUB-SDK: Invalid API key ⚠️
+2026-11-06 02:57:09,572 - hub_sdk.helpers.logger - ERROR - An error occurred while retrieving data for user ID: u1, 'Users' object has no attribute '_reconstruct_data'
+2026-11-06 02:57:09,575 - hub_sdk.helpers.logger - ERROR - Unauthorized: Please check your credentials.
+auth_ok: True
+bad_key_rejected: True
+model_config_reshaped: True
+heartbeat_agent_id: AGENT-1
+users_data_empty_bug: True
+teamlist_hits_datasets_endpoint_bug: True
+teamlist_headers_passed_as_public_bug: True

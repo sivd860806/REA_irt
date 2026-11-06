@@ -1,0 +1,952 @@
+[
+ {
+  "resource": "account",
+  "class": "Account",
+  "method_name": "summary",
+  "http": "GET",
+  "path": "/api/account/summary",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "account",
+  "class": "Account",
+  "method_name": "api_keys",
+  "http": "GET",
+  "path": "/api/api-keys",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "account",
+  "class": "Account",
+  "method_name": "storage",
+  "http": "GET",
+  "path": "/api/storage",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "account",
+  "class": "Account",
+  "method_name": "profile",
+  "http": "GET",
+  "path": "/api/users",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "account",
+  "class": "Account",
+  "method_name": "follow",
+  "http": "PATCH",
+  "path": "/api/users",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "agents",
+  "class": "Agents",
+  "method_name": "list",
+  "http": "GET",
+  "path": "/api/workflows",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "agents",
+  "class": "Agents",
+  "method_name": "save",
+  "http": "PUT",
+  "path": "/api/workflows",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "agents",
+  "class": "Agents",
+  "method_name": "delete",
+  "http": "DELETE",
+  "path": "/api/workflows",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "billing",
+  "class": "Billing",
+  "method_name": "transactions",
+  "http": "GET",
+  "path": "/api/billing/transactions",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "billing",
+  "class": "Billing",
+  "method_name": "usage_summary",
+  "http": "GET",
+  "path": "/api/billing/usage-summary",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "class_stats",
+  "http": "GET",
+  "path": "/api/datasets/{owner}/{dataset}/class-stats",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "delete_classes",
+  "http": "POST",
+  "path": "/api/datasets/{owner}/{dataset}/classes/delete",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "merge_classes",
+  "http": "POST",
+  "path": "/api/datasets/{owner}/{dataset}/classes/merge",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "clone",
+  "http": "POST",
+  "path": "/api/datasets/{owner}/{dataset}/clone",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "retrieve",
+  "http": "GET",
+  "path": "/api/datasets/{owner}/{dataset}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "update",
+  "http": "PATCH",
+  "path": "/api/datasets/{owner}/{dataset}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "delete",
+  "http": "DELETE",
+  "path": "/api/datasets/{owner}/{dataset}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "embeddings",
+  "http": "GET",
+  "path": "/api/datasets/{owner}/{dataset}/embeddings",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "create_embeddings",
+  "http": "POST",
+  "path": "/api/datasets/{owner}/{dataset}/embeddings",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "delete_embeddings",
+  "http": "DELETE",
+  "path": "/api/datasets/{owner}/{dataset}/embeddings",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "export",
+  "http": "GET",
+  "path": "/api/datasets/{owner}/{dataset}/export",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "create_export",
+  "http": "POST",
+  "path": "/api/datasets/{owner}/{dataset}/export",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "update_export",
+  "http": "PATCH",
+  "path": "/api/datasets/{owner}/{dataset}/export",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "adopt_images",
+  "http": "POST",
+  "path": "/api/datasets/{owner}/{dataset}/images/adopt",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "clustering",
+  "http": "GET",
+  "path": "/api/datasets/{owner}/{dataset}/images/clustering",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "images",
+  "http": "GET",
+  "path": "/api/datasets/{owner}/{dataset}/images",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "selected_images",
+  "http": "POST",
+  "path": "/api/datasets/{owner}/{dataset}/images",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "ingest",
+  "http": "POST",
+  "path": "/api/datasets/{owner}/{dataset}/ingest",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "models",
+  "http": "GET",
+  "path": "/api/datasets/{owner}/{dataset}/models",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "batch",
+  "http": "GET",
+  "path": "/api/datasets/{owner}/{dataset}/predict/batch",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "create_batch",
+  "http": "POST",
+  "path": "/api/datasets/{owner}/{dataset}/predict/batch",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "delete_batch",
+  "http": "DELETE",
+  "path": "/api/datasets/{owner}/{dataset}/predict/batch",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "restore",
+  "http": "POST",
+  "path": "/api/datasets/{owner}/{dataset}/restore",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "redistribute_splits",
+  "http": "POST",
+  "path": "/api/datasets/{owner}/{dataset}/splits/redistribute",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "compare",
+  "http": "GET",
+  "path": "/api/datasets/{owner}/{dataset}/versions/compare",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "list",
+  "http": "GET",
+  "path": "/api/datasets/{owner}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "create",
+  "http": "POST",
+  "path": "/api/datasets",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "import_roboflow",
+  "http": "POST",
+  "path": "/api/integrations/roboflow/import",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "datasets",
+  "class": "Datasets",
+  "method_name": "preview_roboflow",
+  "http": "POST",
+  "path": "/api/integrations/roboflow/preview",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "deployments",
+  "class": "Deployments",
+  "method_name": "retrieve",
+  "http": "GET",
+  "path": "/api/deployments/{owner}/{deployment}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "deployments",
+  "class": "Deployments",
+  "method_name": "update",
+  "http": "PATCH",
+  "path": "/api/deployments/{owner}/{deployment}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "deployments",
+  "class": "Deployments",
+  "method_name": "delete",
+  "http": "DELETE",
+  "path": "/api/deployments/{owner}/{deployment}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "deployments",
+  "class": "Deployments",
+  "method_name": "health",
+  "http": "GET",
+  "path": "/api/deployments/{owner}/{deployment}/health",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "deployments",
+  "class": "Deployments",
+  "method_name": "logs",
+  "http": "GET",
+  "path": "/api/deployments/{owner}/{deployment}/logs",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "deployments",
+  "class": "Deployments",
+  "method_name": "metrics",
+  "http": "GET",
+  "path": "/api/deployments/{owner}/{deployment}/metrics",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "deployments",
+  "class": "Deployments",
+  "method_name": "predict",
+  "http": "POST",
+  "path": "/api/deployments/{owner}/{deployment}/predict",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "files"
+ },
+ {
+  "resource": "deployments",
+  "class": "Deployments",
+  "method_name": "list",
+  "http": "GET",
+  "path": "/api/deployments/{owner}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "deployments",
+  "class": "Deployments",
+  "method_name": "create",
+  "http": "POST",
+  "path": "/api/deployments/{owner}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "explore",
+  "class": "Explore",
+  "method_name": "search",
+  "http": "GET",
+  "path": "/api/explore/search",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "exports",
+  "class": "Exports",
+  "method_name": "resolve_mobile",
+  "http": "POST",
+  "path": "/api/mobile/models/{export_id}",
+  "auth": null,
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "exports",
+  "class": "Exports",
+  "method_name": "retrieve",
+  "http": "GET",
+  "path": "/api/models/{owner}/{project}/{model}/exports/{export_id}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "exports",
+  "class": "Exports",
+  "method_name": "delete",
+  "http": "DELETE",
+  "path": "/api/models/{owner}/{project}/{model}/exports/{export_id}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "exports",
+  "class": "Exports",
+  "method_name": "mobile",
+  "http": "POST",
+  "path": "/api/models/{owner}/{project}/{model}/exports/{export_id}/mobile",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "exports",
+  "class": "Exports",
+  "method_name": "list",
+  "http": "GET",
+  "path": "/api/models/{owner}/{project}/{model}/exports",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "exports",
+  "class": "Exports",
+  "method_name": "create",
+  "http": "POST",
+  "path": "/api/models/{owner}/{project}/{model}/exports",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "images",
+  "class": "Images",
+  "method_name": "retrieve",
+  "http": "GET",
+  "path": "/api/images/{image_id}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "images",
+  "class": "Images",
+  "method_name": "update",
+  "http": "PATCH",
+  "path": "/api/images/{image_id}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "images",
+  "class": "Images",
+  "method_name": "delete",
+  "http": "DELETE",
+  "path": "/api/images/{image_id}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "images",
+  "class": "Images",
+  "method_name": "predict",
+  "http": "POST",
+  "path": "/api/images/{image_id}/predict",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "images",
+  "class": "Images",
+  "method_name": "find_similar_images",
+  "http": "GET",
+  "path": "/api/images/{image_id}/similar",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "images",
+  "class": "Images",
+  "method_name": "update_bulk",
+  "http": "PATCH",
+  "path": "/api/images/bulk",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "images",
+  "class": "Images",
+  "method_name": "delete_bulk",
+  "http": "DELETE",
+  "path": "/api/images/bulk",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "images",
+  "class": "Images",
+  "method_name": "urls",
+  "http": "POST",
+  "path": "/api/images/urls",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "lifecycle",
+  "class": "Lifecycle",
+  "method_name": "trash",
+  "http": "GET",
+  "path": "/api/trash",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "lifecycle",
+  "class": "Lifecycle",
+  "method_name": "restore",
+  "http": "POST",
+  "path": "/api/trash",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "lifecycle",
+  "class": "Lifecycle",
+  "method_name": "delete_trash",
+  "http": "DELETE",
+  "path": "/api/trash",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "models",
+  "class": "Models",
+  "method_name": "clone",
+  "http": "POST",
+  "path": "/api/models/{owner}/{project}/{model}/clone",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "models",
+  "class": "Models",
+  "method_name": "retrieve",
+  "http": "GET",
+  "path": "/api/models/{owner}/{project}/{model}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "models",
+  "class": "Models",
+  "method_name": "update",
+  "http": "PATCH",
+  "path": "/api/models/{owner}/{project}/{model}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "models",
+  "class": "Models",
+  "method_name": "delete",
+  "http": "DELETE",
+  "path": "/api/models/{owner}/{project}/{model}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "models",
+  "class": "Models",
+  "method_name": "files",
+  "http": "GET",
+  "path": "/api/models/{owner}/{project}/{model}/files",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "models",
+  "class": "Models",
+  "method_name": "predict",
+  "http": "POST",
+  "path": "/api/models/{owner}/{project}/{model}/predict",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "files"
+ },
+ {
+  "resource": "models",
+  "class": "Models",
+  "method_name": "find_similar_training_images",
+  "http": "GET",
+  "path": "/api/models/{owner}/{project}/{model}/similar-images",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "models",
+  "class": "Models",
+  "method_name": "training",
+  "http": "GET",
+  "path": "/api/models/{owner}/{project}/{model}/training",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "models",
+  "class": "Models",
+  "method_name": "delete_training",
+  "http": "DELETE",
+  "path": "/api/models/{owner}/{project}/{model}/training",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "models",
+  "class": "Models",
+  "method_name": "list",
+  "http": "GET",
+  "path": "/api/models/{owner}/{project}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "models",
+  "class": "Models",
+  "method_name": "create",
+  "http": "POST",
+  "path": "/api/models",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "models",
+  "class": "Models",
+  "method_name": "upload_checkpoint",
+  "http": "POST",
+  "path": "/api/webhooks/models/upload",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "projects",
+  "class": "Projects",
+  "method_name": "clone",
+  "http": "POST",
+  "path": "/api/projects/{owner}/{project}/clone",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "projects",
+  "class": "Projects",
+  "method_name": "retrieve",
+  "http": "GET",
+  "path": "/api/projects/{owner}/{project}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "projects",
+  "class": "Projects",
+  "method_name": "update",
+  "http": "PATCH",
+  "path": "/api/projects/{owner}/{project}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "projects",
+  "class": "Projects",
+  "method_name": "delete",
+  "http": "DELETE",
+  "path": "/api/projects/{owner}/{project}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "projects",
+  "class": "Projects",
+  "method_name": "list",
+  "http": "GET",
+  "path": "/api/projects/{owner}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "projects",
+  "class": "Projects",
+  "method_name": "create",
+  "http": "POST",
+  "path": "/api/projects",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "storage_integrations",
+  "class": "StorageIntegrations",
+  "method_name": "update",
+  "http": "PATCH",
+  "path": "/api/integrations/buckets/{id}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "storage_integrations",
+  "class": "StorageIntegrations",
+  "method_name": "delete",
+  "http": "DELETE",
+  "path": "/api/integrations/buckets/{id}",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "storage_integrations",
+  "class": "StorageIntegrations",
+  "method_name": "objects",
+  "http": "GET",
+  "path": "/api/integrations/buckets/{id}/objects",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "storage_integrations",
+  "class": "StorageIntegrations",
+  "method_name": "list",
+  "http": "GET",
+  "path": "/api/integrations/buckets",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "storage_integrations",
+  "class": "StorageIntegrations",
+  "method_name": "create",
+  "http": "POST",
+  "path": "/api/integrations/buckets",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "storage_integrations",
+  "class": "StorageIntegrations",
+  "method_name": "discover",
+  "http": "POST",
+  "path": "/api/integrations/buckets/discover",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "training",
+  "class": "Training",
+  "method_name": "gpu_availability",
+  "http": "GET",
+  "path": "/api/training/gpu-availability",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": null
+ },
+ {
+  "resource": "training",
+  "class": "Training",
+  "method_name": "start",
+  "http": "POST",
+  "path": "/api/training/start",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "training",
+  "class": "Training",
+  "method_name": "metrics",
+  "http": "POST",
+  "path": "/api/webhooks/training/metrics",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "upload",
+  "class": "Upload",
+  "method_name": "complete",
+  "http": "POST",
+  "path": "/api/upload/complete",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ },
+ {
+  "resource": "upload",
+  "class": "Upload",
+  "method_name": "signed_url",
+  "http": "POST",
+  "path": "/api/upload/signed-url",
+  "auth": "('Authorization', 'Bearer ')",
+  "server": null,
+  "body": "json"
+ }
+]
